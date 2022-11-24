@@ -1,0 +1,10 @@
+const nome = 'Rodrigo'
+const concatenacao = "Olá " + nome + '!'
+const template = ` Olá ${nome}!`  //templateString sempre são delimitados com aspas
+console.log(concatenacao, template) 
+
+// expressoes..
+console.log(`1+1 = ${1 + 1}`)
+
+const up = texto => texto.toUpperCase()
+console.log(`Ei... ${up('cuidado')}!`)
